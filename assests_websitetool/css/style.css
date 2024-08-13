@@ -617,6 +617,7 @@ footer,.footer-section{
   opacity: 0.9;
   transition: all 0.5s;
   z-index: 300;
+  position: relative;
 }
 .whatsap_button:hover {
   opacity: 1;
@@ -657,15 +658,16 @@ footer,.footer-section{
 }
 @keyframes blink {
   0% {
-    opacity: 0.5;
+    opacity: 0.6;
   }
   50% {
-    opacity: 0.9;
+    opacity: 1;
   }
   100% {
-    opacity: 0.5;
+    opacity: 0.6;
   }
 }
+
 
 
 

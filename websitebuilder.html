@@ -94,7 +94,7 @@
 -->
  
   <header id="header" class="header d-flex align-items-center sticky-top w-100">
-    <div class="container-xxl position-relative d-flex align-items-center justify-content-between">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-around ">
 
       <a href="https://domgys.in/index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -190,6 +190,16 @@
                   Cloud Backup Solutions</a></li>
             </ul>
           </li>
+          <li class="dropdown">
+            <a href="#"><span>Domains</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
+            </a>
+            <ul>
+              <li><a href="#">.In </a></li>
+              <li><a href="#">.Com</a></li>
+              <li><a href="#">.Bank </a></li>
+              <li><a href="#">.insurance</a></li>
+            </ul>
+      </li>
           <li>
             <a href="https://domgys.in/Become-Our-Partner.html" aria-current="page">
               Become Our Partner</a>
@@ -269,8 +279,8 @@
             <!-- <div class="row main_heading-1">
                  <h1>Best Windows VPS Hosting in India -Domgys</h1>
             </div> -->
-            <div class="row g-4" data-aos="fade-up">
-                <div class="col-lg-5 col-12 row_center  ">
+            <div class="row g-4 d-flex " data-aos="fade-up">
+                <div class="col-lg-5 col-12 row_center ">
                     <div class="section_section_img" >
                         <img src="./assests_websitetool/img/tool.jpg" alt="best website design software">
                     </div>
@@ -770,7 +780,7 @@
     <!-- 7 days offer -->
     <div class="container-fluid offer_section_bg">
         <div class="container">
-            <div class="row py-5 " data-aos="fade-right" data-aos-offset="200" data-aos-delay="50">
+            <div class="row py-5 " data-aos="fade-up" data-aos-offset="200" data-aos-delay="50">
                 <div class=" col-lg-10 m-auto">
                     <div class="main_box-1">
                         <h2>7-Days Money-Back Guarantee</h2>
@@ -796,7 +806,7 @@
 
     <!-- faq section -->
     <div class="container py-3">
-        <div class="row p-2" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50">
+        <div class="row p-2" data-aos="fade-up" data-aos-offset="100" data-aos-delay="120">
             <div class="offset-sm-1 p-3 offset-lg-1 col-lg-10 col-sm-10 offset-lg-1 offset-sm-1 price_end">
                 <div>
                     <h4>Website Builder Tools FAQs</h4>
@@ -1155,6 +1165,7 @@
                 offset: 150,
                 duration: 700,
             });
+            AOS.init({disable: 'phone'});
         });
 
     </script>
